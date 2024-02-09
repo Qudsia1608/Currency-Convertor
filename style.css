@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 189, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.calc{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    min-height: 45vh;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+form{
+    margin: 20px;
+}
+form select, button, input{
+    width: 100%;
+    border: none;
+}
+.drop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 40px;
+    margin: 10px 0px;
+}
+select{
+    margin-right: 5px;
+}
+i {
+    margin: 20px;
+    padding-top: 15px;
+}
+img{
+    height: 35px;
+    padding: 5px;
+}
+input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.exchange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 15px;
+    background-color: rgb(123, 4, 123);
+    color: white;
+    cursor: pointer;
+}
